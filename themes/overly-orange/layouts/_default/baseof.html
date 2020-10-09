@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html lang="en">
+    {{- partial "head.html" . -}}
+    <body>
+        {{- block "main" . }}{{- end }}
+        <img onclick="hide_element(this)" src="/images/corner-picture.png">
+    </body>
+    {{- partial "footer.html" . -}}
+</html>

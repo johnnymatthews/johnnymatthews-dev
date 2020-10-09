@@ -1,0 +1,16 @@
+{{ define "main" }}
+    <h1><a class="hidden-link" href="/">{{ .Site.Title}}</a> | <span class="light-weight">Blog</span></h1>
+    {{ range .Pages.ByPublishDate.Reverse }}
+        <post>
+            <h2><a class="title" href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+            <h3>{{ .Date.Format "2" }}{{ if in (slice 1 21 31) .Date.Day}}st{{ else if in (slice 2 22) .Date.Day}}nd{{ else if in (slice 3 23) .Date.Day}}rd{{ else }}th{{ end }} of {{ .Date.Format "January 2006" }}</h3>
+
+            {{ if .Page.Description }}
+                <p>{{.Description}}</p>
+            {{ else }} 
+                <p>Oh no. It looks like I haven't supplied a description for this post. Ah well.</p>
+            {{ end }}
+            <hr>
+        </post>
+    {{ end }}
+{{ end }}

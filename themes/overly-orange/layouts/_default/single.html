@@ -1,0 +1,11 @@
+{{ define "main" }}
+    <h1><a class="hidden-link" href="/">{{ .Site.Title}}</a> | <span class="light-weight"><a class="hidden-link" href="/blog">{{ .Title }}</a></span></h1>
+    <article>
+        <section>
+            {{ .Description }}
+        </section>
+        <main>
+            {{ .Content }}
+        </main>
+    </article>
+{{ end }}

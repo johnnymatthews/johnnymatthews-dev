@@ -1,0 +1,91 @@
+/* Font imports. */
+@font-face {
+    font-family: Playfair Display;
+    src: url(/fonts/playfairdisplay.ttf); /* https://github.com/clauseggers/Playfair-Display */
+}
+
+/* Global things. */
+body {
+    background: #f69400;
+    color: #171717;
+    font-family: "Playfair Display", serif;
+    font-size: 2em;
+    max-width: 45%;
+    margin: auto;
+    padding-top: 25vh;
+}
+@media screen and (max-width: 600px) {
+    body {
+        max-width: 90%;
+    }
+}
+
+/* Letters and stuff. */
+h1 {
+    letter-spacing: -0.05em;
+}
+h2 {
+    font-size: 40px;
+}
+h3 {
+    font-size: 30px;
+    font-weight: 100;
+}
+p {
+    letter-spacing: -0.02em;
+    line-height: 30px;
+    font-size: 24px;
+}
+a {
+    color: #754700;
+    text-decoration: none;
+}
+h2, h3 { /* Squishes posts on blog index page. */
+    margin: 0px 0px 0px 0px;
+}
+pre {
+    padding: 10px;
+    white-space: pre-wrap;       /* Since CSS 2.1 */
+    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+
+/* Non-text styles. */
+img {
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    max-width: 25%;
+}
+hr {
+    border: 1px solid #171717;
+}
+
+/* Layout related stuff. */
+section {
+    font-size: 27px;
+    font-style: italic;
+    letter-spacing: -0.013em;
+    line-height: 1.4;
+    border-left-style: solid;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 20px;
+    border-left-width: 0px;
+    border-top-width: 3px;
+    border-top-style: solid;
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+}
+
+/* Fancy custom classes. */
+.hidden-link {
+    text-decoration: none;
+    color: #171717;
+}
+.light-weight {
+    font-weight: 100;
+}
