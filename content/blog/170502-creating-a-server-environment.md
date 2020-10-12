@@ -171,4 +171,4 @@ That is the final step. You should now have a fully functioning LAMP stack runni
 
 DigitalOcean offer pre-built Stacks, so you can click and single button and you'll get a fully-fledged LAMP stack up and running in seconds. If you want to learn more about how to create a LAMP stack from scratch then I'd recommend not using this option. However if you don't really care about learning how to build a LAMP stack, then by all means use the pre-built option! Select **LAMP on 16.04**.
 
-![LAMP one-click apps](](../media/lamp-one-click-apps.png)
+![LAMP one-click apps](../media/lamp-one-click-apps.png)
