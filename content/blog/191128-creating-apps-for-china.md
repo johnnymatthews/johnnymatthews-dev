@@ -34,7 +34,7 @@ The installation process is pretty simple, but it is slightly different for each
 
 <!-- TODO: Create the below screenshot for all three operating systems. -->
 
-![The IPFS Desktop application lives in your status bar until closed.](media/191128-creating-apps-for-china/ipfs-desktop-status-bar-running.jpg)
+![The IPFS Desktop application lives in your status bar until closed.](](../media/191128-creating-apps-for-china/ipfs-desktop-status-bar-running.jpg)
 
 The IPFS desktop app will live in your computer's status bar until it is closed. Now that you've got everything installed and running you can move onto uploading files to the IPFS network.
 
