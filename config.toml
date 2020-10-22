@@ -14,5 +14,5 @@ pluralizelisttitles = "false"
     lineNos = false
     lineNumbersInTable = true
     noClasses = true
-    style = "monokai"
+    style = "github"
     tabWidth = 4
