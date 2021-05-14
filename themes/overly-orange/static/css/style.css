@@ -31,18 +31,6 @@ body {
     }
 }
 
-@media (prefers-color-scheme: dark) {
-    html {
-        background: var(--dark-background-orange);
-    }
-    body {
-        color: var(--dark-main-text);
-    }
-    a {
-        color: var(---dark-off-orange);
-    }
-}
-
 /* Letters and stuff. */
 p, li, code, pre {
     font-size: 20px;
