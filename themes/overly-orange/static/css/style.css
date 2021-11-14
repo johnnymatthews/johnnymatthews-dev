@@ -476,3 +476,7 @@ h2, h3 {
     }
 }
 
+div.highlight pre {
+    padding: 15px;
+    overflow-x: scroll;
+}
