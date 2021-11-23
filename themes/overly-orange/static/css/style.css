@@ -24,7 +24,7 @@
   --text: #212121;
   --text-light: #585858;
   --border: #D8DAE1;
-  --accent: #F69400;
+  --accent: orange;
   --accent-light: #0E0E0E;
   --code: #D81B60;
   --preformatted: #444;
@@ -40,7 +40,7 @@
     --text: #DCDCDC;
     --text-light: #ABABAB;
     --border: #666;
-    --accent: #F69400;
+    --accent: orange;
     --accent-light: #FFECB3;
     --code: #F06292;
     --preformatted: #CCC;
