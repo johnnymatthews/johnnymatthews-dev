@@ -19,12 +19,12 @@
   --line-height: 1.618;
 
   /* Default (light) theme */
-  --bg: #FFF;
+  --bg: orange;
   --accent-bg: #F5F7FF;
   --text: #212121;
   --text-light: #585858;
   --border: #D8DAE1;
-  --accent: orange;
+  --accent: #004FB3;
   --accent-light: #0E0E0E;
   --code: #D81B60;
   --preformatted: #444;
