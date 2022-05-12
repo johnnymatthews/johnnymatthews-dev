@@ -1,3 +1,6 @@
 [submodule "content/config"]
 	path = content/config
 	url = https://github.com/johnnymatthews/config
+[submodule "content/blog"]
+	path = content/blog
+	url = https://github.com/johnnymatthews/blog
