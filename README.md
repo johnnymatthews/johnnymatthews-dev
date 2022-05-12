@@ -4,7 +4,16 @@ This repo holds the [Hugo files](https://gohugo.io) and styling for [johnnymatth
 
 ## Dear Future John
 
-You need to run `git submodule update --recursive --remote` every time there's a new blog post in [`johnnymatthews/blog`](https://github.com/johnnymatthews/blog). 
+You need to run the following stuff every time there's a new blog post in [`johnnymatthews/blog`](https://github.com/johnnymatthews/blog) and you've had to reclone this repo again:
+
+```shell
+git submodule init
+git submodule update --recursive --remote
+cd content/blog
+git checkout yolo
+git pull
+cd ../..
+```
 
 Love, 
 Past John.
