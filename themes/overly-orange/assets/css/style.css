@@ -99,6 +99,11 @@ h1, h2, h3 {
   line-height: 1.1;
 }
 
+p code {
+    background: grey;
+    padding: 5px;
+}
+
 /* Format navigation */
 nav {
   font-size: 1rem;
