@@ -4,7 +4,7 @@
 
 This repo holds the [Hugo files](https://gohugo.io) and styling for [johnnymatthews.dev](https://johnnymatthews.dev). The blog _content_ lives in [github.com/johnnymatthews/blog](https://github.com/johnnymatthews/blog).
 
-## Dear Future John
+## Dear Future Johnny
 
 You need to run the following stuff every time there's a new blog post in [`johnnymatthews/blog`](https://github.com/johnnymatthews/blog) and you've had to reclone this repo again:
 
@@ -18,4 +18,4 @@ cd ../..
 ```
 
 Love, 
-Past John.
+Past Johnny.
