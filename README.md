@@ -1,5 +1,7 @@
 # JohnnyMatthews.dev
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/91429c32-08ed-484a-88f6-3eb9b37df31a/deploy-status)](https://app.netlify.com/sites/dainty-nougat-cbd492/deploys)
+
 This repo holds the [Hugo files](https://gohugo.io) and styling for [johnnymatthews.dev](https://johnnymatthews.dev). The blog _content_ lives in [github.com/johnnymatthews/blog](https://github.com/johnnymatthews/blog).
 
 ## Dear Future John
