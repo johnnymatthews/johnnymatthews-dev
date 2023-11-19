@@ -17,5 +17,11 @@ git pull
 cd ../..
 ```
 
+Or just run this single line:
+
+```
+git submodule init && git submodule update --recursive --remote && cd content/blog && git checkout yolo && git pull && cd ../..
+```
+
 Love, 
 Past Johnny.
