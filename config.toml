@@ -5,15 +5,19 @@ theme = "overly-orange"
 pluralizelisttitles = "false"
 
 [markup]
-  [markup.highlight]
-    anchorLineNos = false
-    codeFences = true
-    guessSyntax = false
-    hl_Lines = ''
-    lineAnchors = ''
-    lineNoStart = 1
-    lineNos = false
-    lineNumbersInTable = true
-    noClasses = true
-    style = 'base16-snazzy'
-    tabWidth = 4
+    [markup.highlight]
+        anchorLineNos = false
+        codeFences = true
+        guessSyntax = false
+        hl_Lines = ''
+        lineAnchors = ''
+        lineNoStart = 1
+        lineNos = false
+        lineNumbersInTable = true
+        noClasses = true
+        style = 'base16-snazzy'
+        tabWidth = 4
+
+[params]
+    homepage_title = "Johnny Matthews"
+    homepage_content = "I learn stuff and then teach other people that stuff. I work with [massive databases](https://clickhouse.com). I make crappy websites like this one. I [blog](./blog) occasionally. I still listen to Blink-182. I put obnoxious line drawings of myself on my website. I'm [available for pints](https://keybase.io/johnnymatthews).</p>"

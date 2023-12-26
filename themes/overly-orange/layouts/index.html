@@ -1,6 +1,11 @@
 {{ define "main" }}
+    <!-- <div id="homepage-intro-holder"> -->
+    <!--     <h1 class="homepage-title"></h1> -->
+    <!--     <p>I learn stuff.  I teach other people that stuff. I work in Web3. I make crappy websites. I <a href="/blog">blog</a>, occasionally. I drink unhealthy amounts of tea. I still listen to Blink-182. I put obnoxious line-drawings of myself on my personal website. I'm <a href="https://keybase.io/johnnymatthews">available for pints</a>.</p> -->
+    <!-- </div> -->
+
     <div id="homepage-intro-holder">
-        <h1 class="homepage-title">Johnny Matthews</h1>
-        <p>I learn stuff.  I teach other people that stuff. I work in Web3. I make crappy websites. I <a href="/blog">blog</a>, occasionally. I drink unhealthy amounts of tea. I still listen to Blink-182. I put obnoxious line-drawings of myself on my personal website. I'm <a href="https://keybase.io/johnnymatthews">available for pints</a>.</p>
+        <h1 class="homepage-title">{{ .Site.Params.homepage_title | markdownify }}</h1>
+        <p>{{ .Site.Params.homepage_content | markdownify }}</p>
     </div>
 {{ end }}
